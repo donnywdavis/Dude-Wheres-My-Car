@@ -32,7 +32,7 @@
                     <navigationItem key="navigationItem" title="Dude Where's My Car" id="PMh-fK-Kqx">
                         <barButtonItem key="rightBarButtonItem" title="Current Location" id="c4m-nj-Cwi">
                             <connections>
-                                <action selector="currentLocation:" destination="BYZ-38-t0r" id="34w-WR-q8t"/>
+                                <action selector="getCurrentLocation:" destination="BYZ-38-t0r" id="iho-Wh-Lr3"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
