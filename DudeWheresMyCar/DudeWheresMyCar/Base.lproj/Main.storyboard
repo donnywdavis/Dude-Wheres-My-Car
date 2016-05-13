@@ -30,8 +30,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Dude Where's My Car" id="PMh-fK-Kqx">
-                        <barButtonItem key="rightBarButtonItem" title="Current Location" id="c4m-nj-Cwi"/>
+                        <barButtonItem key="rightBarButtonItem" title="Current Location" id="c4m-nj-Cwi">
+                            <connections>
+                                <action selector="currentLocation:" destination="BYZ-38-t0r" id="34w-WR-q8t"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="vEW-52-sqG" id="KUa-c5-6Oy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
