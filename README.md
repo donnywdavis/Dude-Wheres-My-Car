@@ -9,9 +9,9 @@ Build an iPhone app that allows the user to drop a pin on demand to mark where t
 
 #### Storyboard Tasks
 
-[ ] Create a view controller that shows a navigation bar.
-[ ] Add a UIMapView to the view controller's view. Make it span the entire view.
-[ ] Add a button (possibly in the navbar?) to allow the user to drop a pin at their current location.
+[x] Create a view controller that shows a navigation bar.
+[x] Add a UIMapView to the view controller's view. Make it span the entire view.
+[x] Add a button (possibly in the navbar?) to allow the user to drop a pin at their current location.
 
 #### Code Tasks
 
